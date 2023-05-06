@@ -9,15 +9,16 @@ package academy.devdojo.maratonajava.intro;
  */
 public class Lesson02PrimitiveTypes {
     public static void main(String[] args) {
-        int age = 37;
+        int age = (int) 100000000000L;
         double salary = 2500.00;
-        float salaryFloat = 2500;
+        float salaryFloat = 2500.0F;
         char firstLetter = 'd';
-        byte ageByte = 37;
-        short ageShort = 10;
-        long bigNumber = 10000000;
+        byte ageByte = 127;
+        short ageShort = 32000;
+        long bigNumber = (long) 25.5;
         boolean isMarried = true;
 
-        System.out.println("My age is " + age + " years old");
+        System.out.println(age);
+        System.out.println(bigNumber);
     }
 }
