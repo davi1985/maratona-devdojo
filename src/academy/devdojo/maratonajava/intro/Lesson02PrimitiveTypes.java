@@ -18,7 +18,8 @@ public class Lesson02PrimitiveTypes {
         long bigNumber = (long) 25.5;
         boolean isMarried = true;
 
-        System.out.println(age);
-        System.out.println(bigNumber);
+        String name = "Davi Silva";
+
+        System.out.println(name);
     }
 }
