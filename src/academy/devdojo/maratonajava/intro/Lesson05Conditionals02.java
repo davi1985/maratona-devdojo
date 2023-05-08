@@ -15,6 +15,7 @@ public class Lesson05Conditionals02 {
             category = "Adult";
         }
 
+        category = age > 15 ? "Infatile" : age >= 15 && age < 18 ? "Juvenile" : "Adult";
         System.out.println(category);
     }
 }
