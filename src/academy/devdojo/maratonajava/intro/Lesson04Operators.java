@@ -2,12 +2,8 @@ package academy.devdojo.maratonajava.intro;
 
 public class Lesson04Operators {
     public static void main(String[] args) {
-        // Math operators: %
         int numberOne = 10;
         int numberTwo = 20;
-
-        int rest = 20 % 7;
-        System.out.println(rest);
 
         // comparator operators: < > <= >= == != - always return boolean value
         boolean isNumberHigherThanOther = numberOne > numberTwo;
@@ -21,5 +17,14 @@ public class Lesson04Operators {
         System.out.println("isNumberEqualsToOther: " + isNumberEqualsToOther);
         System.out.println("isFirstNumberIsEqual: " + isFirstNumberIsEqual);
         System.out.println("isNumberIsDifferentThanOther: " + isNumberIsDifferentThanOther);
+
+        // logic operators: &&(and), || (or), !(not)
+        int age = 35;
+        float salary = 3500F;
+        boolean isInsideLowParameterHigherThanThirty = age > 30 && salary >= 4612.00;
+        boolean isInsideLowParameterMinorThanThirty = age < 30 && salary > 3381.00;
+
+        System.out.println(isInsideLowParameterHigherThanThirty);
+        System.out.println(isInsideLowParameterMinorThanThirty);
     }
 }
