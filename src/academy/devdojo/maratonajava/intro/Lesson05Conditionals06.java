@@ -1,3 +1,5 @@
+package academy.devdojo.maratonajava.intro;
+
 public class Lesson05Conditionals06 {
     public static void main(String[] args) {
         byte day = 1;
