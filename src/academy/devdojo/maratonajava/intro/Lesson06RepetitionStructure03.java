@@ -1,6 +1,6 @@
 package academy.devdojo.maratonajava.intro;
 
-public class Lesson05RepetitionStructure03 {
+public class Lesson06RepetitionStructure03 {
     public static void main(String[] args) {
         int maxValue = 50;
 

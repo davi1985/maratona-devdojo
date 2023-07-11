@@ -1,6 +1,6 @@
 package academy.devdojo.maratonajava.intro;
 
-public class Lesson05RepetitionStructure01 {
+public class Lesson06RepetitionStructure01 {
     public static void main(String[] args) {
         int count = 0;
 
